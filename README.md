@@ -1,4 +1,4 @@
-# PDF-Handler
+# PDF Handler
 [![Python_version](https://img.shields.io/badge/Python-v3.10.2-yellowgreen?style=plastic&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3102/)
 [![Visual_Studio_code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=plastic&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
 
