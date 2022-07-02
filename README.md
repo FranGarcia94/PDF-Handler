@@ -57,7 +57,7 @@ The password has been set in the code, specifically here:
 
 As you can see the password is `1234`, but you can change it to any other password.
 
-### Save file
+## Save file
 Finally, after any function, the following window will appear:
 
 <img src="./img_pdf_handler/save_file.jpg" alt="save" width="300"/>
@@ -66,7 +66,9 @@ Here you just have to enter the name which you want to save the new file[^2]. Th
 
 <img src="./img_pdf_handler/saved.jpg" alt="saved" width="300"/>
 
-[^1]: The program will not allow you to choose a `Start sheet` higher than a `End sheet`, generating the following error message. <img src="./img_pdf_handler/error.jpg" alt="error_extract_sheets" width="300"/>
+
+##### Footer
+[^1]: The program will not allow you to choose a `Start sheet` higher than a `End sheet`, generating the following error message.<br></br> <img src="./img_pdf_handler/error.jpg" alt="error_extract_sheets" width="300"/>
 
 [^2]: If no name is entered, the file will be named `file_doe.pdf` and if the name entered already exists, `-new` will be added at the end of the name file.
 
