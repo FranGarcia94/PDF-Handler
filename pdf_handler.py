@@ -233,12 +233,15 @@ def encrypt_pdf():
 if __name__ == '__main__':
 
     root=Tk()
+    
+    try:
+        icon_img = icon64.icono()
 
-    icon_img = icon64.icono()
-
-    icon_img = b64decode(icon_img)
-    icon_img = ImageTk.PhotoImage(data= icon_img)
-    root.tk.call('wm', 'iconphoto', root._w, icon_img)
+        icon_img = b64decode(icon_img)
+        icon_img = ImageTk.PhotoImage(data= icon_img)
+        root.tk.call('wm', 'iconphoto', root._w, icon_img)
+    except:
+        pass
 
     root.title("PDF HANDLER")
     root.resizable(0,0)
