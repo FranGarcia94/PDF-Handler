@@ -2,7 +2,7 @@
 [![Python_version](https://img.shields.io/badge/Python-v3.10.2-yellowgreen?style=plastic&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3102/)
 [![Visual_Studio_code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=plastic&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
 
-A GUI to perform different operations with PDF files.
+A GUI to perform different operations with PDF files.[^1]
 
 ## Main window
 
@@ -22,7 +22,7 @@ The selection window will let you choose only one file, then the following windo
 
 <img src="./img_pdf_handler/extract_files_options.jpg" alt="extract_sheets" width="500"/>
 
-Here you can choose which sheet or sheets to extract[^1]. The first sheet of the file is number `0` and the last sheet can be found by clicking on the spin box, since, if we go below `0`, the counter will be positioned on the last sheet of the file.
+Here you can choose which sheet or sheets to extract[^2]. The first sheet of the file is number `0` and the last sheet can be found by clicking on the spin box, since, if we go below `0`, the counter will be positioned on the last sheet of the file.
 
 ## 3. Resize PDF
 The selection window will let you choose only one file.
@@ -62,15 +62,17 @@ Finally, after any function, the following window will appear:
 
 <img src="./img_pdf_handler/save_file.jpg" alt="save" width="300"/>
 
-Here you just have to enter the name which you want to save the new file[^2]. The file will be saved in the working folder (where the code is running) and this success message will be displayed:
+Here you just have to enter the name which you want to save the new file[^3]. The file will be saved in the working folder (where the code is running) and this success message will be displayed:
 
 <img src="./img_pdf_handler/saved.jpg" alt="saved" width="300"/>
 
 
 ##### Footer
-[^1]: The program will not allow you to choose a `Start sheet` higher than a `End sheet`, generating the following error message.<br></br> <img src="./img_pdf_handler/error.jpg" alt="error_extract_sheets" width="300"/>
+[^1]: To run [the main program](/pdf_handler.py) you have to download [the file](/icon64.py) containing the logo in base64, however, this is not necessary as it is already collected with an exception.
 
-[^2]: If no name is entered, the file will be named `file_doe.pdf` and if the name entered already exists, `-new` will be added at the end of the name file.
+[^2]: The program will not allow you to choose a `Start sheet` higher than a `End sheet`, generating the following error message.<br></br> <img src="./img_pdf_handler/error.jpg" alt="error_extract_sheets" width="300"/>
+
+[^3]: If no name is entered, the file will be named `file_doe.pdf` and if the name entered already exists, `-new` will be added at the end of the name file.
 
 
 
