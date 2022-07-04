@@ -5,6 +5,7 @@
 #           * Merge files.                                              #
 #           * Extract one or more sheets from a file.                   #
 #           * Lower the file size (It is not always possible).          #
+#           * Add a Watermark.                                          #
 #           * Encrypt a file.                                           #
 #                                                                       #
 #=======================================================================#
