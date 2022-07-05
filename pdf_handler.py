@@ -8,6 +8,7 @@
 #           * Add a Watermark.                                          #
 #           * Encrypt a file.                                           #
 #                                                                       #
+#                                                @FranGarcia94          #
 #=======================================================================#
 
 from tkinter.font import Font
