@@ -2,7 +2,7 @@
 [![Python_version](https://img.shields.io/badge/Python-v3.10.2-blueviolet?style=plastic&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3102/)
 [![Visual_Studio_code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=plastic&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
 ![License](https://custom-icon-badges.herokuapp.com/github/license/FranGarcia94/PDF-Handler?logo=law)
-![](https://custom-icon-badges.herokuapp.com/github/languages/code-size/FranGarcia94/PDF-Handler?logo=file-code&logoColor=white)
+![](https://badge-size.herokuapp.com/FranGarcia94/PDF-Handler/main/pdf_handler.py)
 
 A GUI to perform different operations with PDF files.[^1]
 
