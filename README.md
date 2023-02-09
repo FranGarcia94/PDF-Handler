@@ -72,7 +72,7 @@ Here you just have to enter the name which you want to save the new file[^3]. Th
 ##### Footer
 [^1]: To run [the main program](/pdf_handler.py) you have to download [the file](/icon64.py) containing the logo in base64, however, this is not necessary as it is already collected with an exception.
 
-[^2]: The program will not allow you to choose a `Start sheet` higher than a `End sheet`, generating the following error message.<br></br> <img src="./img_pdf_handler/error.jpg" alt="error_extract_sheets" width="300"/>
+[^2]: The program will not allow you to choose a `Start sheet` higher than a `End sheet`, generating the following error message.<br></br> <img src="" alt="error_extract_sheets" width="300"/>
 
 [^3]: If no name is entered, the file will be named `file_doe.pdf` and if the name entered already exists, `-new` will be added at the end of the name file.
 
